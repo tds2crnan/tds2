@@ -1,0 +1,14 @@
+C:\Users\onime\documents\visual studio 2010\Projects\TDS2.0\TDS2.0\obj\x86\Debug\TDS2._0.Properties.Resources.resources
+C:\Users\onime\documents\visual studio 2010\Projects\TDS2.0\TDS2.0\bin\Debug\TDS2.0.exe
+C:\Users\onime\documents\visual studio 2010\Projects\TDS2.0\TDS2.0\bin\Debug\TDS2.0.pdb
+C:\Users\onime\documents\visual studio 2010\Projects\TDS2.0\TDS2.0\obj\x86\Debug\TDS2.0.exe
+C:\Users\onime\documents\visual studio 2010\Projects\TDS2.0\TDS2.0\obj\x86\Debug\TDS2.0.pdb
+C:\Users\onime\documents\visual studio 2010\Projects\TDS2.0\TDS2.0\obj\x86\Debug\TDS2._0.CellDate.resources
+C:\Users\onime\documents\visual studio 2010\Projects\TDS2.0\TDS2.0\obj\x86\Debug\TDS2._0.CellVacation.resources
+C:\Users\onime\documents\visual studio 2010\Projects\TDS2.0\TDS2.0\obj\x86\Debug\TDS2._0.CellTableau.resources
+C:\Users\onime\Documents\Visual Studio 2010\Projects\TDS2.0\TDS2.0\bin\Debug\MySql.Data.dll
+C:\Users\onime\Documents\Visual Studio 2010\Projects\TDS2.0\TDS2.0\bin\Debug\MySql.Data.Entity.dll
+C:\Users\onime\Documents\Visual Studio 2010\Projects\TDS2.0\TDS2.0\obj\x86\Debug\TDS2._0.Form1.resources
+C:\Users\onime\Documents\Visual Studio 2010\Projects\TDS2.0\TDS2.0\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\onime\Documents\Visual Studio 2010\Projects\TDS2.0\TDS2.0\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\onime\Documents\Visual Studio 2010\Projects\TDS2.0\TDS2.0\obj\x86\Debug\GenerateResource.write.1.tlog

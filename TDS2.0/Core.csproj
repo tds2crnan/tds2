@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5685E615-9D95-41EE-8851-CAB292AFFCBF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Core</RootNamespace>
+    <AssemblyName>TDS2.0</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.7.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.Entity, Version=6.7.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dao.cs" />
+    <Compile Include="FormImpressionAnnuel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormImpressionAnnuel.designer.cs">
+      <DependentUpon>FormImpressionAnnuel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MetierAgent.cs" />
+    <Compile Include="Bdd.cs" />
+    <Compile Include="MetierCarriere.cs" />
+    <Compile Include="MetierCycle.cs" />
+    <Compile Include="MetierEquip.cs" />
+    <Compile Include="MetierFonction.cs" />
+    <Compile Include="PresenterAdmin.cs" />
+    <Compile Include="PresenterCarriere2013.cs" />
+    <Compile Include="PresenterCycleJ3J1N.cs" />
+    <Compile Include="PresenterPeuplerSub.cs" />
+    <Compile Include="PresenterPeupler.cs" />
+    <Compile Include="MetierTypes.cs" />
+    <Compile Include="PresenterListCycle.cs" />
+    <Compile Include="PresenterVacation2Person.cs" />
+    <Compile Include="StartPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StartPage.designer.cs">
+      <DependentUpon>StartPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewAdmin.Designer.cs">
+      <DependentUpon>ViewAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCarriere2013.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewCarriere2013.Designer.cs">
+      <DependentUpon>ViewCarriere2013.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCycleJ3J1N.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewCycleJ3J1N.Designer.cs">
+      <DependentUpon>ViewCycleJ3J1N.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewVacation1PersonSur2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewVacation1PersonSur2.Designer.cs">
+      <DependentUpon>ViewVacation1PersonSur2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewVacation2Person.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewVacation2Person.Designer.cs">
+      <DependentUpon>ViewVacation2Person.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPeuplerSub.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewPeuplerSub.Designer.cs">
+      <DependentUpon>ViewPeuplerSub.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewListCycle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewListCycle.Designer.cs">
+      <DependentUpon>ViewListCycle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewJour.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewJour.Designer.cs">
+      <DependentUpon>ViewJour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresenterAgent.cs" />
+    <Compile Include="PresenterDate.cs" />
+    <Compile Include="PresenterModificationVacation.cs" />
+    <Compile Include="PresenterSemaineSub.cs" />
+    <Compile Include="PresenterTypeVacation.cs" />
+    <Compile Include="MetierSub.cs" />
+    <Compile Include="MetierVacation.cs" />
+    <Compile Include="ViewAgent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewAgent.Designer.cs">
+      <DependentUpon>ViewAgent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPeupler.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewPeupler.Designer.cs">
+      <DependentUpon>ViewPeupler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSemaineSub.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewSemaineSub.Designer.cs">
+      <DependentUpon>ViewSemaineSub.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewVacation1Person.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewVacation1Person.Designer.cs">
+      <DependentUpon>ViewVacation1Person.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewText.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewText.Designer.cs">
+      <DependentUpon>ViewText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewTypeVacation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewTypeVacation.Designer.cs">
+      <DependentUpon>ViewTypeVacation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CycleFactory.cs" />
+    <Compile Include="Cycle_2013.cs" />
+    <Compile Include="ViewDate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewDate.Designer.cs">
+      <DependentUpon>ViewDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModificationVacation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewModificationVacation.Designer.cs">
+      <DependentUpon>ViewModificationVacation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresenterVacation1Person.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormImpressionAnnuel.resx">
+      <DependentUpon>FormImpressionAnnuel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartPage.resx">
+      <DependentUpon>StartPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewAdmin.resx">
+      <DependentUpon>ViewAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewAgent.resx">
+      <DependentUpon>ViewAgent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewCarriere2013.resx">
+      <DependentUpon>ViewCarriere2013.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewCycleJ3J1N.resx">
+      <DependentUpon>ViewCycleJ3J1N.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewVacation1PersonSur2.resx">
+      <DependentUpon>ViewVacation1PersonSur2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewVacation2Person.resx">
+      <DependentUpon>ViewVacation2Person.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewPeuplerSub.resx">
+      <DependentUpon>ViewPeuplerSub.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewListCycle.resx">
+      <DependentUpon>ViewListCycle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewDate.resx">
+      <DependentUpon>ViewDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewJour.resx">
+      <DependentUpon>ViewJour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewPeupler.resx">
+      <DependentUpon>ViewPeupler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewSemaineSub.resx">
+      <DependentUpon>ViewSemaineSub.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewVacation1Person.resx">
+      <DependentUpon>ViewVacation1Person.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewText.resx">
+      <DependentUpon>ViewText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewTypeVacation.resx">
+      <DependentUpon>ViewTypeVacation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModificationVacation.resx">
+      <DependentUpon>ViewModificationVacation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="2013\D1\" />
+    <Folder Include="2013\D2\" />
+    <Folder Include="2013\D4\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

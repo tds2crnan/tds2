@@ -1,0 +1,1 @@
+select cycles.id as id, cycles.nomFactory as nomFactory, cycles.tag as tag from cycles, fonctions where fonctions.idSub = 1 and ( (fonctions.dateDebut < "2013-12-01 00:00:00" and fonctions.dateFin > "2013-12-01 00:00:00") or ( fonctions.dateDebut < "2013-12-10 00:00:00" and fonctions.dateFin > "2013-12-10 00:00:00") );
