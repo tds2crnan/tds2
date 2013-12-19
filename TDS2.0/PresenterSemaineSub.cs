@@ -38,6 +38,7 @@ namespace Core
         public actionSelectionCell actionSelect;
         public actionSelectionCell actionUnselect;
 
+
         public void actionSelected()
         {
             if( (System.Windows.Forms.Control.ModifierKeys & Keys.Control) != Keys.Control )
