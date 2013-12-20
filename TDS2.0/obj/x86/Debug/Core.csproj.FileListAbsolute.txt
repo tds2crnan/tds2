@@ -28,3 +28,34 @@ C:\Users\onime\Documents\Visual Studio 2010\Projects\TDS2.0\TDS2.0\obj\x86\Debug
 C:\Users\onime\Documents\Visual Studio 2010\Projects\TDS2.0\TDS2.0\obj\x86\Debug\Core.ViewVacation2Person.resources
 C:\Users\onime\Documents\Visual Studio 2010\Projects\TDS2.0\TDS2.0\obj\x86\Debug\Core.ViewVacation1Person.resources
 C:\Users\onime\Documents\Visual Studio 2010\Projects\TDS2.0\TDS2.0\obj\x86\Debug\Core.ViewListCycle.resources
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\bin\Debug\TDS2.0.exe.config
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\TDS2.0.exe
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\TDS2.0.pdb
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\Core.FormImpressionAnnuel.resources
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\Core.StartPage.resources
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\Core.ViewAdmin.resources
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\Core.ViewAgent.resources
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\Core.ViewCarriere2013.resources
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\Core.ViewCycleJ3J1N.resources
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\Core.ViewVacation1PersonSur2.resources
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\Core.ViewVacation2Person.resources
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\Core.ViewPeuplerSub.resources
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\Core.ViewListCycle.resources
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\Core.ViewDate.resources
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\Core.ViewJour.resources
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\Core.ViewPeupler.resources
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\Core.ViewSemaineSub.resources
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\Core.ViewVacation1Person.resources
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\Core.ViewText.resources
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\Core.ViewTypeVacation.resources
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\Core.Form1.resources
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\Core.ViewModificationVacation.resources
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\Core.Properties.Resources.resources
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\bin\Debug\TDS2.0.exe
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\bin\Debug\TDS2.0.pdb
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\bin\Debug\antlr.runtime.dll
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\bin\Debug\DDay.Collections.dll
+C:\Users\Saminovitch\Documents\Maquette TDS\TDS2.0\TDS2.0\bin\Debug\DDay.iCal.dll
