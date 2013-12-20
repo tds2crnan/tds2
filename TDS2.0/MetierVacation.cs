@@ -7,6 +7,7 @@ using System.Reflection;
 using MySql.Data.MySqlClient;
 using System.ComponentModel;
 
+
 namespace Core
 {
     public class DaoIVacation : IDaoFactory<IVacation>
